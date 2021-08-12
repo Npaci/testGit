@@ -1,13 +1,12 @@
 package io;
 
 public class Game {
-	private String nom;
-    private String editeur;
     private int id;
     private int age_min;
     private int nbr_joueur_min;
     private int nbr_joueur_max;
-    
+    private String nom;
+    private String editeur;
 
     public Game(int id, int age_min, int nbr_joueur_min, int nbr_joueur_max, String nom, String editeur) {
         this.id = id;
