@@ -16,7 +16,7 @@ public class Dialogue {
             String line = null;
             Personne p = null;
             boolean commentKeyPresent = false;
-            //Comment
+            // final Comment
             while ((line = br.readLine()) != null){
 
                 if (line.contains(" -")){ // if that line is a dialog
